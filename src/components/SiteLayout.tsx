@@ -38,6 +38,7 @@ export function SiteLayout() {
               </NavLink>
             ))}
           </nav>
+          <a className="portfolio-return" href="/">← Späť na portfólio</a>
           <Link className="header-cta" to="/zapas">
             Program zápasov <ArrowUpRight size={16} />
           </Link>
@@ -56,6 +57,7 @@ export function SiteLayout() {
           <nav className="footer-nav" aria-label="Navigácia v päte">
             <Link to="/zapas">Zápasy</Link><Link to="/hraci">Hráči</Link><Link to="/novinky">Novinky</Link><Link to="/historia">História klubu</Link>
           </nav>
+          <a className="footer-portfolio-return" href="/">← Späť na portfólio</a>
         </div>
         <div className="site-footer__bottom wrap">
           <span>© 2026 Dynamo Kyjev · Univerzitný projekt</span>
